@@ -1,0 +1,24 @@
+# Ignore raw and large files
+raw_data/
+fastq_trimmed/
+bam_files/
+bwa_indexed/
+vcf_files/
+qc_stats/plots/
+*.html
+*.log
+*.bai
+*.fai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Ignore hidden/system files
+.DS_Store
+*.swp
+
+# Python cache
+__pycache__/
+*.pyc
